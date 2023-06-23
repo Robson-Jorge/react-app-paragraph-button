@@ -1,6 +1,6 @@
-import './paragraph.css'
+import './index.css'
 
-const Paragraph = ({children,color,textTransform}) => {
+const StyledParagraph = ({children,color,textTransform}) => {
     return(
         <p 
         className='text' 
@@ -13,9 +13,9 @@ const Paragraph = ({children,color,textTransform}) => {
     )
 }
 
-Paragraph.defaultProps = {
+StyledParagraph.defaultProps = {
     color: '#ff5252',
     textTransform: 'uppercase'
 }
 
-export default Paragraph
+export default StyledParagraph
